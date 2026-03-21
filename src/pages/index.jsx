@@ -1,15 +1,15 @@
 import HomePage from "./HomePage";
 import AboutUsPage from "./AboutUsPage";
 import ContactPage from "./ContactPage";
-import PcGamesPage from "./PcGamesPage";
-import WebBrowserGamesPage from "./WebBrowserGamesPage";
+import BrowsePage from "./BrowsePage";
+import GameDetailsPage from "./GameDetailsPage";
 import NotFound from "./NotFound";
 
 export {
   HomePage,
   AboutUsPage,
   ContactPage,
-  PcGamesPage,
-  WebBrowserGamesPage,
+  BrowsePage,
+  GameDetailsPage,
   NotFound,
 };

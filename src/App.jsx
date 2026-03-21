@@ -5,8 +5,8 @@ import {
   HomePage,
   AboutUsPage,
   ContactPage,
-  PcGamesPage,
-  WebBrowserGamesPage,
+  BrowsePage,
+  GameDetailsPage,
   NotFound,
 } from "@/pages";
 
@@ -20,8 +20,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/pc-games" element={<PcGamesPage />} />
-          <Route path="/web-games" element={<WebBrowserGamesPage />} />
+          <Route path="/browse" element={<BrowsePage />} />
+          <Route path="/game/:id" element={<GameDetailsPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
