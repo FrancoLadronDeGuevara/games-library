@@ -30,7 +30,7 @@ const AboutUsPage = () => {
             About Us
           </h1>
           <p className="text-lg md:text-xl text-[--color-text-secondary] mb-6 leading-relaxed">
-            At Games Library, we're passionate about video games and believe every player deserves an exceptional experience. Our team is dedicated to creating the best platform to discover, share, and enjoy the games you love most.
+            At Games Atlas, we're passionate about video games and believe every player deserves an exceptional experience. Our team is dedicated to creating the best platform to discover, share, and enjoy the games you love most.
           </p>
           <p className="text-lg text-[--color-text-secondary] leading-relaxed">
              Hello world.
